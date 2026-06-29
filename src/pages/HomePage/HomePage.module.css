@@ -1,0 +1,15 @@
+.container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 24px;
+  font-size: 28px;
+}
+
+.error {
+  color: #cc0000;
+  font-weight: 600;
+}

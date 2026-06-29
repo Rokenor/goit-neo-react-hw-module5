@@ -1,0 +1,85 @@
+.container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.goBack {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.goBack:hover,
+.goBack:focus {
+  text-decoration: underline;
+}
+
+.details {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.poster {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: 26px;
+}
+
+.subtitle {
+  margin: 16px 0 4px;
+  font-size: 18px;
+}
+
+.additional {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.additionalTitle {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+.subNav {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.subLink {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.subLink:hover,
+.subLink:focus {
+  color: #0066cc;
+}
+
+.subLinkActive {
+  color: #0066cc;
+}
+
+.error {
+  color: #cc0000;
+  font-weight: 600;
+}
